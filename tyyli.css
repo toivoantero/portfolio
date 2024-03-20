@@ -7,8 +7,15 @@ body {
 	font-family: "Courier New", monospace;
 }
 
+img {
+	margin-top: 27%;
+	width: 160%;
+	display: none;
+}
+
 h1 {
 	font-weight: bold;
+	margin-top: 0.77em;
 }
 
 a {
@@ -195,8 +202,16 @@ input:checked + .slider:before {
 		margin-top: 20%;
 	}
 
+	.body-mv .item1 img {
+		display: block;
+	}
+
 	.item1 h1 {
 		font-size: 14.5vw;
+	}
+
+	.body-mv .item1 h1 {
+		display: none;
 	}
 
 	.item2 {
@@ -394,5 +409,40 @@ input:checked + .slider:before {
 
 	.item8 {
 		background-color: rgba(222, 222, 100, 0.5);
+	}
+}
+
+/* Mobiilinäkymä, mustavalkonäkymä käänteisenä. */
+@media only screen and (max-width: 450px) {
+	body {
+		background-color: black;
+	}
+
+	.body-mv {
+		background-color: white;
+	}
+
+	.body-mv .item1 img {
+		display: none;
+	}
+
+	.item1 img {
+		display: block;
+	}
+
+	.item1 h1 {
+		display: none;
+	}
+
+	.body-mv .item1 h1 {
+		display: block;
+	}
+
+	.item4-mobiili {
+		color: lightgray;
+	}
+
+	.body-mv .item4-mobiili {
+		color: black;
 	}
 }

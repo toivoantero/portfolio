@@ -5,6 +5,24 @@ function mustavalkoVaihto() {
 	bodyElement.classList.toggle("body-mv");
 }
 
+/* Mobiilinäkymän automaattinen darkmode */
+/*
+function checkWindowSize() {
+    var bodyElement = document.body;
+    var isMobile = window.matchMedia("(max-width: 450px)").matches;
+    var bodyHasClass = bodyElement.classList.contains("body-mv");
+
+    if (isMobile && !bodyHasClass) {
+        mustavalkoVaihto();
+    } else if (!isMobile && bodyHasClass) {
+        mustavalkoVaihto();
+    }
+}
+
+checkWindowSize();
+window.addEventListener('resize', checkWindowSize);
+*/
+
 /* Tietolaatikon esiintuominen */
 
 const link1 = document.querySelector('.item3 .tavutus-oletus:first-of-type');
