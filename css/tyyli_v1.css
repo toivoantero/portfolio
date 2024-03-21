@@ -69,7 +69,7 @@ a {
 .raami-nelio {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows: 37% 63%;
+	grid-template-rows: 36% 64%;
 	height: 100%;
 	aspect-ratio: 1/1;
 	margin: auto;
