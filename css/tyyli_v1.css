@@ -53,11 +53,13 @@ a {
 
 .item2 div a:hover,
 .item3 div a:hover {
-	filter: opacity(50%);
+	filter: opacity(60%);
+	-webkit-filter: opacity(60%);
 }
 
-.item1 a:hover img:last-of-type {
-	background-color: rgba(0, 0, 0, 0.3);
+.item1 a:hover img {
+	background-color: rgba(0, 0, 0, 0.2);
+	transition: all 0.2s ease;
 }
 
 .tausta {
