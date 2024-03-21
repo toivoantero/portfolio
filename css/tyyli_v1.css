@@ -6,9 +6,8 @@ body {
 	font-size: 100%;
 }
 
-
 .otsikko {
-	padding: 0 0 1vh 0;
+	padding: 0 0 2vh 0;
 }
 
 .item1 img {
@@ -40,6 +39,9 @@ body {
 	width: 100%;
 }
 
+.linkki-mobiili {
+	display: none;
+}
 
 a {
 	color: black;
@@ -51,7 +53,6 @@ a {
 
 .item2 div a:hover,
 .item3 div a:hover {
-	/*outline: 1vh solid red;*/
 	filter: opacity(50%);
 }
 
@@ -73,7 +74,7 @@ a {
 	aspect-ratio: 1/1;
 	margin: auto;
 	color: black;
-			padding: 0 3% 0 3%;
+	padding: 0 3% 0 3%;
 
 }
 
@@ -193,5 +194,22 @@ input:checked + .slider:before {
 	.raami-nelio {
 		height: auto;
 		aspect-ratio: 1/1;
+	}
+
+	.item2 div a:hover,
+	.item3 div a:hover {
+		filter: none;
+	}
+
+	.item1 a:hover img:last-of-type {
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.linkki-mobiili {
+		display: inline;
+	}
+	
+	.linkki {
+		display: none;
 	}
 }
