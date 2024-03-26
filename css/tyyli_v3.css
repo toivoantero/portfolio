@@ -42,6 +42,8 @@ body {
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	aspect-ratio: 1/1;
+	box-sizing: border-box;
 }
 
 /*
@@ -52,19 +54,11 @@ body {
 }
 */
 
-.item2 a img {
+.item2 div img {
 	border: 2px solid black;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 }
 
-.item2 a:hover img {
-	transition: all 0.2s ease;
-	filter: invert(100%);
-	-webkit-filter: invert(100%);
-	border: 2px solid white;
-}
-
+.item2 div a,
 .item3 div a,
 .item4 div a {
 	position: absolute;
@@ -75,20 +69,23 @@ body {
 	width: 100%;
 }
 
+.item2 div a:hover,
 .item3 div a:hover,
 .item4 div a:hover {
 	opacity: 0;
-	transition: all 0.2s ease;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
 }
 
-.item3 div a:hover ~ .tiedot-verkkosivu,
-.item4 div a:hover ~ .tiedot-pelinvalikko {
+.item2 div a:hover ~ .tiedot,
+.item3 div a:hover ~ .tiedot,
+.item4 div a:hover ~ .tiedot {
 	opacity: 1;
-	transition: all 0.2s ease;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
 }
 
-.tiedot-verkkosivu,
-.tiedot-pelinvalikko {
+.tiedot {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -107,7 +104,9 @@ a {
 	color: black;
 	padding: 0;
 	margin: 0;
-	transition: opacity 0.3s ease;
+	aspect-ratio: 1/1;
+	height: 100%;
+	width: auto;
 }
 
 .linkki-mobiili {
@@ -206,19 +205,15 @@ input:checked + .slider:before {
 		border: none;
 	}
 
-	.item2 a:hover img {
-		filter: none;
-		-webkit-filter: none;
-		border: none;
-	}
-
+	.item2 div a:hover,
 	.item3 div a:hover,
 	.item4 div a:hover {
 		opacity: 1;
 	}
 
-	.item3 div a:hover ~ .tiedot-verkkosivu,
-	.item4 div a:hover ~ .tiedot-pelinvalikko {
+	.item2 div a:hover ~ .tiedot,
+	.item3 div a:hover ~ .tiedot,
+	.item4 div a:hover ~ .tiedot {
 		opacity: 0;
 	}
 }
