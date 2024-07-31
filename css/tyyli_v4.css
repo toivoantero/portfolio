@@ -238,8 +238,35 @@ a {
 		aspect-ratio: auto;
 	}
 
+	.ruutu-nimi a img {
+	 	animation: linkkiosoitin-nimi 1.5s;
+  	animation-delay: 2s;	
+	}
+	
+	@keyframes linkkiosoitin-nimi {
+  	0%   {box-shadow: none;}
+  	50%  {box-shadow: 0px 0px 0px 3px black;}
+  	100%  {box-shadow: none;}
+	}
+	
 	.linkki-mobiili {
 		display: inline;
+	}
+	
+	.linkki-mobiili img {
+		animation: linkkiosoitin 1.5s;
+  	animation-delay: 2s;
+	}
+	
+	.ruutu-grf a img {
+	 	animation: linkkiosoitin 1.5s;
+  	animation-delay: 2s;	
+	}
+	
+	@keyframes linkkiosoitin {
+  	0%   {box-shadow: none;}
+  	50%  {box-shadow: 0px 0px 0px 2px black;}
+  	100%  {box-shadow: none;}
 	}
 
 	.linkki {
