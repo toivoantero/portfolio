@@ -1,0 +1,293 @@
+body {
+	background-color: black;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+.tausta {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	height: 100%;
+}
+
+img {
+	filter: invert(100%);	
+}
+
+.raami-otsikko {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	height: 100%;
+	width: 100%;
+}
+
+.raami-otsikko div {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0 0 3vh 8vh;
+}
+
+.raami-otsikko img {
+	width: 18vh;
+}
+
+.raami-nelio {
+	display: grid;
+	/*grid-template-columns: 33% 33% 33%;*/
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	/*grid-template-rows: 50% 50%;*/
+	height: 100%;
+	width: auto;
+	padding: 8vh;
+	margin: 0;
+	color: black;
+	box-sizing: border-box;
+}
+
+.ruutu {
+	aspect-ratio: 1/1;
+	height: calc(50vh - 8vh);
+	width: calc(50vh - 8vh);
+	padding: 2.5vh;
+	box-sizing: border-box;
+}
+
+.ruutu img {
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	aspect-ratio: 1/1;
+	box-sizing: border-box;
+}
+
+/*
+.ruutu1 img {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 2px solid black;
+}
+*/
+
+.ruutu > div {
+	position: relative;
+	width: 100%;
+}
+
+.ruutu-otsikko img {
+	display: none;
+}
+
+.ruutu-nimi div img {
+	border: 2px solid black;
+}
+
+.ruutu:not(.ruutu-otsikko) div a:hover {
+	opacity: 0;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
+}
+
+.ruutu:not(.ruutu-otsikko) div a:hover ~ .tiedot {
+	opacity: 1;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
+}
+
+.ruutu-viimeinen div {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1/1;
+}
+
+.tiedot {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	aspect-ratio: 1/1;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0;
+}
+
+.ruutu-ylimaara {
+	display: none;
+}
+
+a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	aspect-ratio: 1/1;
+	height: auto;
+	width: 100%;
+	color: black;
+	z-index: 2;
+}
+
+.linkki-mobiili {
+	display: none;
+}
+
+
+
+@media only screen and (max-aspect-ratio: 100/59) {
+	.tausta {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.raami-otsikko {
+		display: none;
+	}
+
+	.raami-nelio {
+		padding: 10vh 0;
+	}
+
+	.ruutu {
+		height: calc(50vh - 10vh);
+		width: calc(50vh - 10vh);
+	}
+
+	.ruutu-otsikko img {
+		display: block;
+	}
+
+	.ruutu-otsikko {
+		grid-area: 1 / 1 / 2 / 2;
+	}
+}
+
+@media only screen and (max-aspect-ratio: 100/72) {
+	.raami-nelio {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		height: 100%;
+		width: 100vh;
+		aspect-ratio: 1/1;
+		padding: 3vh;
+		margin: auto;
+		color: black;
+		box-sizing: border-box;
+	}
+
+	.ruutu {
+		height: 100%;
+		width: 100%;
+		padding: calc(0.8vh + 0.8vw);
+	}
+
+	.ruutu-viimeinen div {
+		border: 2px solid white;
+	}
+
+	.ruutu-ylimaara {
+		display: flex;
+	}
+
+	.ruutu-tyhja2 {
+		grid-area: 2 / 3 / 3 / 4;
+	}
+	
+	.ruutu-tyhja {
+		grid-area: 1 / 3 / 2 / 4;
+	}
+/*
+	.ruutu-tyhja {
+		grid-area: 1 / 2 / 2 / 3;
+	}
+	*/
+/*
+	.ruutu-nimi {
+		grid-area: 1 / 3 / 2 / 4;
+	}
+	*/
+}
+
+@media only screen and (max-aspect-ratio: 100/99) {
+	.raami-nelio {
+		height: auto;
+		width: 100%;
+	}
+}
+
+/* Mobiilinäkymä, mustavalkonäkymä käänteisenä. */
+@media only screen and (max-width: 600px) and (max-aspect-ratio: 100/92) {
+	.raami-nelio {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		height: auto;
+		/*transform: translate(0, -4vh);*/
+		width: 100%;
+		aspect-ratio: auto;
+	}
+	
+	.linkki-mobiili {
+		display: inline;
+	}
+	
+	.linkki-mobiili img {
+		animation: linkkiosoitin 6s infinite;
+	}
+	
+	.ruutu-grf a img {
+	 	animation: linkkiosoitin 6s infinite;
+	}
+	
+	@keyframes linkkiosoitin {
+  	0%   {box-shadow: 4px 4px 0px 0px white;}
+  	50%  {box-shadow: 4px 4px 0px 0px black;}
+  	100%  {box-shadow: 4px 4px 0px 0px white;}
+	}
+
+	.linkki {
+		display: none;
+	}
+
+	.ruutu {
+		height: 100%;
+		width: 100%;
+		padding: 2.5vw;
+	}
+
+	.ruutu-ylimaara {
+		display: none;
+	}
+/*
+	.ruutu-nimi {
+		grid-area: 1 / 2 / 2 / 3;
+	}
+*/
+	.ruutu-nimi a img {
+		animation: linkkiosoitin 6s infinite;
+		border: 2px solid white;
+	}
+
+	.ruutu:not(.ruutu-otsikko) div a:hover {
+		opacity: 1;
+	}
+
+	.ruutu:not(.ruutu-otsikko) div a:hover ~ .tiedot {
+		opacity: 0;
+	}
+}

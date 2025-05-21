@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="69.72mm" height="70.01mm" viewBox="23028 8040 6972 7001" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+<svg version="1.2" width="69.73mm" height="70.01mm" viewBox="13639 13000 6973 7001" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs>
   <font id="EmbeddedFont_1" horiz-adv-x="2048">
    <font-face font-family="Lucida Grande embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="1980" descent="430"/>
    <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
-   <glyph unicode="v" horiz-adv-x="1066" d="M 422,0 L 18,1086 215,1086 531,241 864,1086 1048,1086 619,0 Z"/>
    <glyph unicode="t" horiz-adv-x="636" d="M 523,-25 C 423,-25 345,4 289,61 233,118 205,198 205,300 L 205,938 69,938 69,1086 205,1086 205,1283 402,1302 402,1086 686,1086 686,938 402,938 402,336 C 402,194 463,123 586,123 612,123 644,127 681,136 L 681,0 C 620,-17 568,-25 523,-25 Z"/>
-   <glyph unicode="s" horiz-adv-x="748" d="M 485,-25 C 395,-25 286,-4 157,38 L 157,219 C 286,155 398,123 493,123 550,123 597,138 634,169 671,200 690,238 690,284 690,351 638,407 533,451 L 418,500 C 248,571 163,672 163,805 163,900 197,974 264,1029 331,1083 422,1110 539,1110 600,1110 675,1102 764,1085 L 805,1077 805,913 C 695,946 608,962 543,962 416,962 353,916 353,824 353,765 401,715 497,674 L 592,634 C 699,589 775,541 820,491 865,440 887,377 887,302 887,207 849,128 774,67 699,6 602,-25 485,-25 Z"/>
+   <glyph unicode="r" horiz-adv-x="617" d="M 197,0 L 197,1086 394,1086 394,882 C 472,1034 585,1110 734,1110 754,1110 775,1108 797,1105 L 797,921 C 763,932 733,938 707,938 582,938 478,864 394,716 L 394,0 Z"/>
    <glyph unicode="p" horiz-adv-x="1009" d="M 197,-395 L 197,1086 394,1086 394,882 C 475,1034 596,1110 757,1110 888,1110 991,1062 1066,967 1141,872 1178,741 1178,576 1178,396 1136,251 1051,141 966,30 854,-25 715,-25 586,-25 479,24 394,123 L 394,-395 Z M 394,259 C 495,168 592,123 684,123 873,123 968,267 968,556 968,811 884,938 716,938 606,938 499,878 394,759 Z"/>
    <glyph unicode="o" horiz-adv-x="1066" d="M 622,-25 C 467,-25 343,27 250,130 157,233 111,370 111,543 111,718 158,856 251,958 344,1059 470,1110 629,1110 788,1110 915,1059 1008,958 1101,856 1147,718 1147,545 1147,368 1100,228 1007,127 914,26 785,-25 622,-25 Z M 625,123 C 834,123 938,264 938,545 938,823 835,962 629,962 424,962 321,822 321,543 321,263 422,123 625,123 Z"/>
-   <glyph unicode="n" horiz-adv-x="916" d="M 197,0 L 197,1086 394,1086 394,882 C 498,1034 625,1110 776,1110 870,1110 945,1080 1001,1021 1057,961 1085,881 1085,780 L 1085,0 888,0 888,716 C 888,797 876,854 853,889 829,923 790,940 735,940 614,940 501,861 394,703 L 394,0 Z"/>
    <glyph unicode="l" horiz-adv-x="225" d="M 197,0 L 197,1579 394,1579 394,0 Z"/>
-   <glyph unicode="k" horiz-adv-x="972" d="M 197,0 L 197,1579 394,1579 394,559 854,1086 1066,1086 627,579 1157,0 905,0 394,557 394,0 Z"/>
-   <glyph unicode="j" horiz-adv-x="599" d="M -154,-369 L -154,-213 C -62,-252 8,-271 56,-271 125,-271 171,-253 194,-217 217,-181 228,-109 228,0 L 228,1086 426,1086 426,0 C 426,-279 308,-419 72,-419 2,-419 -73,-402 -154,-369 Z M 228,1283 L 228,1480 426,1480 426,1283 Z"/>
    <glyph unicode="i" horiz-adv-x="225" d="M 197,0 L 197,1086 394,1086 394,0 Z M 197,1283 L 197,1480 394,1480 394,1283 Z"/>
    <glyph unicode="e" horiz-adv-x="917" d="M 993,35 C 861,-5 748,-25 654,-25 494,-25 364,28 263,135 162,241 111,379 111,548 111,713 156,848 245,953 334,1058 447,1111 586,1111 717,1111 819,1064 891,971 962,878 998,745 998,573 L 997,512 312,512 C 341,254 467,125 691,125 773,125 874,147 993,191 Z M 321,660 L 800,660 C 800,862 725,963 574,963 423,963 338,862 321,660 Z"/>
-   <glyph unicode="d" horiz-adv-x="1010" d="M 894,0 L 894,204 C 814,51 693,-25 532,-25 401,-25 299,23 224,118 149,213 111,344 111,509 111,690 154,835 239,945 324,1055 435,1110 574,1110 703,1110 809,1061 894,962 L 894,1579 1092,1579 1092,0 Z M 894,827 C 792,917 695,962 604,962 415,962 321,818 321,529 321,275 405,148 573,148 682,148 789,208 894,327 Z"/>
    <glyph unicode="c" horiz-adv-x="861" d="M 621,-25 C 474,-25 353,29 256,138 159,247 111,384 111,549 111,726 159,863 255,962 350,1061 484,1110 655,1110 740,1110 834,1098 939,1075 L 939,910 C 828,943 737,959 667,959 566,959 486,921 425,846 364,770 333,669 333,543 333,421 364,322 427,247 490,172 572,134 673,134 763,134 856,157 951,203 L 951,33 C 824,-6 714,-25 621,-25 Z"/>
    <glyph unicode="a" horiz-adv-x="991" d="M 757,138 C 639,29 525,-25 416,-25 326,-25 251,3 192,60 133,116 103,187 103,273 103,392 153,483 253,547 352,610 495,642 681,642 L 728,642 728,773 C 728,899 663,962 534,962 430,962 318,930 197,866 L 197,1029 C 330,1083 454,1110 570,1110 691,1110 781,1083 839,1028 896,973 925,888 925,773 L 925,281 C 925,168 960,112 1029,112 1038,112 1050,113 1067,116 L 1081,7 C 1036,-14 987,-25 933,-25 841,-25 782,29 757,138 Z M 728,245 L 728,526 662,528 C 554,528 467,508 400,467 333,426 300,372 300,305 300,258 317,218 350,185 383,152 424,136 472,136 554,136 639,172 728,245 Z"/>
-   <glyph unicode="S" horiz-adv-x="917" d="M 481,-37 C 382,-37 255,-15 100,28 L 100,236 C 267,159 404,120 511,120 594,120 660,142 711,185 761,228 786,285 786,356 786,414 770,463 737,504 704,545 643,590 554,640 L 452,699 C 326,771 237,839 186,903 134,966 108,1040 108,1125 108,1239 149,1333 232,1407 315,1480 420,1517 548,1517 662,1517 782,1498 909,1460 L 909,1268 C 753,1329 637,1360 560,1360 487,1360 427,1341 380,1302 333,1263 309,1215 309,1156 309,1107 326,1063 361,1025 396,987 459,942 551,889 L 657,829 C 785,756 874,688 925,623 976,558 1001,481 1001,390 1001,261 954,158 859,80 764,2 638,-37 481,-37 Z"/>
    <glyph unicode="R" horiz-adv-x="1103" d="M 191,0 L 191,1480 639,1480 C 781,1480 890,1449 966,1386 1041,1323 1079,1232 1079,1113 1079,916 979,776 780,693 L 1274,0 1016,0 595,626 399,626 399,0 Z M 399,783 L 467,783 C 731,783 863,887 863,1094 863,1247 752,1323 531,1323 L 399,1323 Z"/>
-   <glyph unicode="Q" horiz-adv-x="1552" d="M 1505,-296 C 1272,-221 1077,-131 920,-27 857,-34 809,-37 775,-37 576,-37 415,35 291,179 166,323 104,510 104,740 104,976 167,1165 293,1306 418,1447 586,1517 796,1517 1007,1517 1175,1446 1300,1305 1425,1164 1488,974 1488,737 1488,397 1362,162 1109,31 1279,-44 1455,-97 1638,-129 Z M 790,120 C 941,120 1058,174 1141,283 1224,392 1265,545 1265,744 1265,937 1224,1088 1141,1197 1058,1306 943,1360 796,1360 649,1360 534,1306 451,1197 368,1088 327,936 327,742 327,549 368,397 450,286 532,175 645,120 790,120 Z"/>
-   <glyph unicode="N" horiz-adv-x="1140" d="M 191,0 L 191,1480 397,1480 1142,337 1142,1480 1322,1480 1322,0 1117,0 371,1143 371,0 Z"/>
-   <glyph unicode="L" horiz-adv-x="897" d="M 191,0 L 191,1480 401,1480 401,157 1067,157 1067,0 Z"/>
-   <glyph unicode="." horiz-adv-x="262" d="M 200,0 L 200,247 447,247 447,0 Z"/>
+   <glyph unicode="-" horiz-adv-x="916" d="M 148,518 L 148,666 1036,666 1036,518 Z"/>
   </font>
  </defs>
  <defs class="EmbeddedBulletChars">
@@ -60,22 +51,22 @@
   </g>
  </defs>
  <g class="Page">
-  <g class="com.sun.star.drawing.CustomShape">
+  <g class="com.sun.star.drawing.ClosedBezierShape">
    <g id="id3">
-    <rect class="BoundingBox" stroke="none" fill="none" x="23028" y="8040" width="6972" height="7001"/>
-    <path fill="rgb(255,255,255)" stroke="none" d="M 26514,15040 L 23028,15040 23028,8040 29999,8040 29999,15040 26514,15040 Z"/>
+    <rect class="BoundingBox" stroke="none" fill="none" x="13639" y="13000" width="6973" height="7001"/>
+    <path fill="rgb(255,255,255)" stroke="none" d="M 13639,20000 C 13639,17667 13639,15333 13639,13000 15963,13000 18286,13000 20610,13000 20610,15333 20610,17667 20610,20000 18286,20000 15963,20000 13639,20000 Z"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.TextShape">
    <g id="id4">
-    <rect class="BoundingBox" stroke="none" fill="none" x="23188" y="12363" width="4685" height="2420"/>
-    <text class="TextShape"><tspan class="TextParagraph" font-family="Lucida Grande" font-size="917px" font-weight="400"><tspan class="TextPosition" x="23438" y="13377"><tspan fill="rgb(0,0,0)" stroke="none">pelin</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Lucida Grande" font-size="917px" font-weight="400"><tspan class="TextPosition" x="23438" y="14461"><tspan fill="rgb(0,0,0)" stroke="none">valikko</tspan></tspan></tspan></text>
+    <rect class="BoundingBox" stroke="none" fill="none" x="13798" y="17323" width="3383" height="2420"/>
+    <text class="TextShape"><tspan class="TextParagraph" font-family="Lucida Grande" font-size="917px" font-weight="400"><tspan class="TextPosition" x="14048" y="18337"><tspan fill="rgb(0,0,0)" stroke="none">retro-</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Lucida Grande" font-size="917px" font-weight="400"><tspan class="TextPosition" x="14048" y="19421"><tspan fill="rgb(0,0,0)" stroke="none">peli</tspan></tspan></tspan></text>
    </g>
   </g>
   <g class="com.sun.star.drawing.TextShape">
    <g id="id5">
-    <rect class="BoundingBox" stroke="none" fill="none" x="26771" y="8040" width="2891" height="3249"/>
-    <text class="TextShape"><tspan class="TextParagraph" font-family="Lucida Grande" font-size="564px" font-weight="400"><tspan class="TextPosition" x="27021" y="8711"><tspan fill="rgb(0,0,0)" stroke="none">React</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Lucida Grande" font-size="564px" font-weight="400"><tspan class="TextPosition" x="27021" y="9376"><tspan fill="rgb(0,0,0)" stroke="none">Node.js</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Lucida Grande" font-size="564px" font-weight="400"><tspan class="TextPosition" x="27021" y="10041"><tspan fill="rgb(0,0,0)" stroke="none">SQLite</tspan></tspan></tspan></text>
+    <rect class="BoundingBox" stroke="none" fill="none" x="17381" y="13000" width="2891" height="3249"/>
+    <text class="TextShape"><tspan class="TextParagraph" font-family="Lucida Grande" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17631" y="13671"><tspan fill="rgb(0,0,0)" stroke="none">React</tspan></tspan></tspan></text>
    </g>
   </g>
  </g>
