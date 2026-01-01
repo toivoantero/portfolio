@@ -1,7 +1,7 @@
 # Portfolio (Old Version)
 
 This repository contains an **older version** of my personal portfolio website.  
-This version is built with HTML, CSS, and JavaScript and showcases my programming projects and graphic design.
+This version is built with HTML and CSS and showcases my programming projects and graphic design.
 
 ## 🌐 Live Demo (Old Version)
 
